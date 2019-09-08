@@ -1,0 +1,15 @@
+.page-body{
+    margin-top: 60px;
+    text-align: center;
+    width: 100vw;
+    padding: 5px;
+}
+
+@media (min-width: 600px) {
+    .page-body{
+        margin: auto;
+        margin-top: 195px;
+        max-width: 1350px;
+    }
+
+}

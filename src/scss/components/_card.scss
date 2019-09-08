@@ -1,0 +1,46 @@
+.cards-box{
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    li{
+        padding: 15px;
+        margin: auto;
+        background: $corporativeBlue;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 7px rgba(128,128,128, 0.5);
+        max-width: 600px;
+        a{
+            color: $corporativeGray;
+            .details-medic{
+                margin-top: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .small-description{
+                margin-top: 10px;
+                text-align: left;
+            }
+        }
+    }
+}
+
+.member-detils{
+    margin-bottom: 20px;
+}
+
+.about-cards-direction{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 900px) {
+    .about-cards-direction{
+        display: flex;
+        flex-direction: row;
+        div{
+            width: 100%;
+        }
+    }
+}

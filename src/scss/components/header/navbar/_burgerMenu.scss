@@ -1,0 +1,189 @@
+* {
+    margin: 0; 
+    padding: 0;
+  }
+  
+  // Menu to be toggled.
+  .menu {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    background-color: $corporativeBlue;
+    text-align: center;
+    opacity: 0.93;
+    box-shadow: 0 0 7px rgba(128,128,128, 0.5);
+    height: 100%;
+    width: 200px;
+    left: 100%;
+    padding-top: 80px;
+    transform: translateX(100%);
+    transition: 0.4s ease-in-out;
+    &__link {
+      padding: 10px;
+      color: rgba(0,0,0,0.4);
+      position: relative;
+      transition: 0.3s ease-in-out;
+      padding: 10px 24px 10px 10px; 
+      display: block; 
+    }
+    & li {
+      list-style-type: none;
+      position: relative;
+      text-align: center; 
+      transition: 0.3s ease-in-out;
+      margin-bottom: 20px;
+      a{
+        list-style-type: none;
+        text-decoration: none;
+        color: $corporativeGray;
+        font-size: 20px;
+      }
+    }
+  }
+  
+  // Menu toggler: checkbox.
+  #menu-checkbox {
+    display: block; 
+    width: 40px;
+    height: 35px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    opacity: 0; 
+    z-index: 2;
+  }
+  
+  // Burger.
+  .burger__element {
+    display: block;
+    position: fixed;
+    top: 18px;
+    right: 18px;
+    background-color: $corporativeGray;
+    width: 30px;
+    height: 4px;
+    margin: 4px; 
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 3px;
+    &::before, &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 30px;
+      height: 4px;
+      border-radius: 3px;
+      background-color: $corporativeGray;
+    }
+    &::before {
+      top: 10px;
+    }
+    &::after {
+      top: -10px;
+    }
+  }
+  
+  #menu-checkbox:checked ~ .burger__element {
+    transform: rotate(180deg);
+    transition: 0.3s ease-in-out;
+  }
+  
+  #menu-checkbox:checked ~ .burger__element::before {
+    width: 20px;
+    top: 2px;
+    left: -8px;
+    transform: rotate(45deg) translateX(5px);
+    transition: 0.3s ease-in-out;
+  }
+  
+  #menu-checkbox:checked ~ .burger__element::after {
+    width: 20px;
+    top: 2px;
+    left: -12px;
+    -webkit-transform: rotate(-45deg) translateX(-5px);
+    transform: rotate(-45deg) translateX(12px);
+    transition: 0.3s ease-in-out;
+  }
+  
+  #menu-checkbox:checked ~ .menu {
+    transform: translateX(-100%);
+  } 
+
+
+@media (min-width: 600px) {
+    .principal-header{
+        position: fixed;
+        right: 0;
+        left: 0;
+        background: whitesmoke;
+        opacity: 0.94;
+        top: 0;
+        padding: 0 0;
+        display: block;
+        width: 100%;
+        .pre-navbar{
+            width: 100%;
+            height: 140px;
+            margin: 0;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            img{
+                height: 100px;
+                margin: auto;
+            }
+        }
+        h2{
+            display: none;
+        }
+        .burger-div{
+            border: 0;
+            margin: 0;
+            padding: 10px 40px;
+            width: 100%;
+            right: 0;
+            left:0;
+            height: 0%;
+            margin-left: 0%;
+            box-shadow: none;
+            list-style: none;
+            background: $corporativeBlue;
+            .burger__element, #menu-checkbox, div{
+                display: none;
+                height: 0;
+                width: 0;
+            } 
+            .menu{
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                justify-content: space-between;
+                position: static;
+                transform: none;
+                color: $corporativeGray;
+                transition: none;
+                opacity: 0.93;
+                padding: 0;
+                margin: 0;
+                box-shadow: none;
+                list-style: none;
+                li{
+                    position: static;
+                    margin: 0;
+                    box-shadow: none;
+                    a{
+                        margin:0;
+                        font-size: 16px;
+                    }
+                    a:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+  

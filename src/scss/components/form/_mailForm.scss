@@ -1,0 +1,33 @@
+.contact-form-box{
+    padding: 20px;
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background: $corporativeBlue;
+        border-radius: 10px;
+        justify-content: center;
+        align-content: center;
+        label{
+            text-align: left;
+            color: $corporativeGray;
+            margin: 3px;
+        }
+        input{
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        textarea{
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+    }
+    .submit-input{
+        margin: auto;
+        background: $corporativeGray;
+        color: $corporativeBlue;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+    }
+}

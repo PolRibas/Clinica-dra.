@@ -1,0 +1,53 @@
+$backgroundPage: whitesmoke;
+$corporativeBlue: #5779B2;
+$bluegardien: rgb(75, 96, 133);
+$corporativeGray: rgb(236, 235, 235);
+$sinCirugia: #cc6f65;
+
+
+.only-desktop{
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .only-desktop{
+        display: block;
+    }
+}
+
+.only-phone{
+    display: block;
+}
+
+@media (min-width: 600px) {
+    .only-phone{
+        display: none;
+    }
+}
+
+a, ul, li{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+margin: 0;
+padding: 0;
+background: $backgroundPage;
+width: 100vw;
+}
+
+.h2-clasificacion{
+    text-align: left;
+    margin-left: 20px;
+}
+
