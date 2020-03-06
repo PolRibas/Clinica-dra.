@@ -1,0 +1,43 @@
+.tratamientos-page{
+    .top-page{
+        background-image: url('../assets/clinicaH.jpg');
+        background-position: center;
+        min-height: 280px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 40px 40px 0px 40px;
+        @include flexColumnEnd;
+        opacity: 0.9;
+        p{
+            font-size: 18px;
+            text-shadow: 2px 2px 2px #000000;
+            color: $backgroundPage;
+        }
+    }
+    .content{
+        padding: 20px 40px 0px 40px;
+        h3{
+            font-size: 18px;
+            text-shadow: 1px 1px 1px $bluegardien;
+            color: $corporativeBlue;
+            width: 100%;
+        }
+        ul{
+            li{
+                margin-bottom: 10px;
+                p{
+                    margin: 0;
+                    margin-bottom: 5px;
+                    font-weight: 500;
+                    small{
+                        font-weight: 200;
+
+                    }
+                }
+            }
+        }
+        .colapset{
+            display: none;
+        }
+    }
+}

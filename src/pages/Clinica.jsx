@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar'
 import es from '../helpers/json/es.json'
 
 export default class Clinica extends Component {
+    componentWillMount = () => window.scrollTo(0, 0);
+
     render() {
         const {Clinica} = es
         return (

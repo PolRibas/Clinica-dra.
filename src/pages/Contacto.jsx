@@ -4,6 +4,8 @@ import es from '../helpers/json/es.json'
 import Consulta from '../components/Consulta'
 
 export default class Contacto extends Component {
+    componentWillMount = () => window.scrollTo(0, 0);
+
     render() {
         const {Contacto} = es
         console.log(Contacto)
