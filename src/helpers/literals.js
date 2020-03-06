@@ -1,7 +1,7 @@
 const literals = {
     eng: {
         home: 'Home',
-        homeDescripcion: 'Desde hace quince años, trabajamos en la mejora constante de la cirugía plástica y medicina estética para ofrecer a nuestros clientes un servicio próximo y adaptado a las necesidades individuales. La mejora constante, garantía de un servicio excelente.',
+        homeDescripcion: 'La mejora constante, garantía de un servicio excelente.',
         about: 'Team',
         services: 'Cirugy',
         titleCirugi: 'Cirugy treatments',
@@ -43,12 +43,14 @@ const literals = {
             smallDescription: '',
             bigDescription: '',
             especialidades: [],
+            url: 'https://firebasestorage.googleapis.com/v0/b/clinica-dra-sonia-rovira-eace9.appspot.com/o/fotos-consulta%2Fmerche.jpg?alt=media&token=d62d9ddb-7fb2-4b54-879f-72b5b13f7628',
             id: 'MercedesMiquel'
             },{
             name: 'Silvia Palacios Diaz-Carralero',
             smallDescription: '',
             bigDescription: '',
             especialidades: [],
+            url: 'https://firebasestorage.googleapis.com/v0/b/clinica-dra-sonia-rovira-eace9.appspot.com/o/fotos-consulta%2Fsilvia.jpg?alt=media&token=870a08ee-6606-4642-8d07-947406d4ad5f',
             id: 'SilviaPalacios'
             },{
             name: 'Mertxe Bello Villegas',
@@ -249,29 +251,11 @@ const literals = {
             bigDescription: '',
             question: '',
             id: 'LobuloRasgado'
-        },{
-            name:'Extirpación nevus quistes',
-            smallDescription: 'Descripción pendiente',
-            bigDescription: '',
-            question: '',
-            id: 'ExtirpacionNevus'
-        },{
-            name:'Extirpación silicona labios',
-            smallDescription: 'Descripción pendiente',
-            bigDescription: '',
-            question: '',
-            id: 'ExtirpacionSilicona'
-        },{
-            name:'Hernia umbilical',
-            smallDescription: 'Descripción pendiente',
-            bigDescription: '',
-            question: '',
-            id: 'HerniaUmbilical'
         }]
     },
     esp: {
         home: 'Inicio',
-        homeDescripcion: 'Desde hace veinticinco años, trabajamos en la mejora constante de la cirugía plástica y medicina estética para ofrecer a nuestros clientes un servicio próximo y adaptado a las necesidades individuales. La mejora constante, garantía de un servicio excelente.',
+        homeDescripcion: 'La mejora constante, garantía de un servicio excelente.',
         about: 'Equipo',
         services: 'Cirugía',
         titleCirugi: 'Tratamientos con cirugía',
@@ -519,24 +503,6 @@ const literals = {
             bigDescription: '',
             question: '',
             id: 'LobuloRasgado'
-        },{
-            name:'Extirpación nevus quistes',
-            smallDescription: 'Descripción pendiente',
-            bigDescription: '',
-            question: '',
-            id: 'ExtirpacionNevus'
-        },{
-            name:'Extirpación silicona labios',
-            smallDescription: 'Descripción pendiente',
-            bigDescription: '',
-            question: '',
-            id: 'ExtirpacionSilicona'
-        },{
-            name:'Hernia umbilical',
-            smallDescription: 'Descripción pendiente',
-            bigDescription: '',
-            question: '',
-            id: 'HerniaUmbilical'
         }]
     },
 }
