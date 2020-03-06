@@ -54,7 +54,9 @@ class Consulta extends Component {
     render() {
         const {name, phone, email, message} = this.state;
         return (
+
             <form onSubmit={this.submitForm} className='form'>
+                <h3>Pedir Consulta</h3>
                 <div className='form-field'>
                     <label htmlFor="name">Nombre</label>
                     <input type="text" onChange={this.inputOnChange} required/>

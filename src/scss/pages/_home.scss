@@ -13,6 +13,7 @@
         .text-box{
             h3{
                 font-size: 24px;
+                
                 text-shadow: 2px 2px 2px #000000;
                 color: $backgroundPage;
             }
@@ -52,6 +53,7 @@
         width: 100vw;
         background: $corporativeGray;
         transition: 0.5s;
+        padding: 5vh 40px 12vh 40px;
     }
     .on{
         top: 0
