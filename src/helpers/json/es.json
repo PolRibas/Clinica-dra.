@@ -1,0 +1,86 @@
+{
+    "Home": {
+      "text": "La mejora constante, garantía de un servicio excelente.",
+      "title": "Clinica Dra. Sonia Rovira",
+      "subtite": "Cirugia plástica, reparadora y estética",
+      "button": "Pide una consulta"
+    },
+    "Menú": {
+      "list": ["Inicio", "Clinica", "Tratamientos", "Contacto"]
+    },
+    "Clinica": {
+      "text": "Somos cirujanos plásticos, reparadores estéticos y anestesistas con un servicio de enfermeria especializado.",
+      "Cuadro médico": {
+        "title": "Cuadro médico",
+        "list": [
+          ["Dra. Sonia Rovira Vallvé", "Nº Col 19149"],
+          ["Dr. Ricardo Coronel Gagliardi", "Nº Col 37579"],
+          ["Dr. J. Ramón Lázaron Hijazo", "Nº Col 25761"]
+        ]
+      },
+      "Unidad sanitaria": {
+        "title": "Unidad sanitaria",
+        "list": ["Merche Miquel Bono", "Silvia Palacios Diaz-Carralero", "Mertxe Bello Villegas", "Miriam González Rodriguez"]
+      },
+      "footer": "Clínica con quirófano propio homologado por la Generalitat de Catalunya, departamento de Sanidad y Seguridad Social, código E08558109"
+    },
+    "Tratamientos": {
+      "Sin cirugía": {
+        "title": "Sin cirugía",
+        "list": [
+          ["Thermage", "Es un tratamiento de radiofrecuencia, sin incisiones, que permite tensar y rejuvenecer el contorno de la fiel de forma natural y así devolver una apariencia joven."],
+          ["IPL", "La Luz intensa pulsada elimina las marcas del sol, el estrés, proporcionando un rejuvenecimiento global y uniforme del rostro, cuello, escote e incluso manos. Permite tratar manchas pigmentadas, venitas o textura cutánea rugosa y así mejorar globalmente la calidad de la piel al estimular la formación de colágeno." ],
+          ["Relleno Ácido Hialurónico", "Los rellenos faciales forman parte de un tratamiento médico rápido y poco doloroso que se realiza mediante infiltraciones, generalmente de ácido hialuronico, sustancia que se halla presente en el cuerpo humano de forma natural y contribuye a hidratar y a dar volumen a la piel."],
+          ["Botox", "Mediante infiltraciones en el músculo de la zona a tratar permite la inhibición del movimiento del músculo."],
+          ["Radiofrecuencia", "Combate la flacidez facial y corporal."],
+          ["Peeling", "Exfoliación quñimica de las capas superficiales de la piel."],
+          ["Vitaminas e hidratación"],
+          ["Hilos tensores", "Se trata de una técnica muy segura e indolora cuyo principal fin es el tensado cutáneo mediante la inserción de hilos en la dermis que inducen la formación de colágeno y de los fibroblastos con el objetivo de estirar y redensificar la piel."],
+          ["Tratamiento lipolitico y reafirmante"],
+          ["Esclerosis"],
+          ["PRP", "Este novedoso tratamiento utiliza factores de crecimiento extraídos de la propia sangre del paciente para obtener plasma rico en plaquetas (PRP). Este plasma contiene proteínas propias del paciente que permiten revitalizar e hidratar la piel, prevenir y corregir el efecto del envejecimiento del rostro, escote y dorso de las manos."]
+        ]
+      },
+      "Con cirugía": {
+        "title": "Con cirugía",
+        "list": [
+          ["Blefaroplastia", "Es un tipo de cirugía que se realiza para corregir las bolsas y el exceso de piel de los párpados, tanto inferiores como superiores."],
+          ["Prótesis de mamas", "La cirugía de prótesis de mamas es un tipo de cirugía que consiste en la implantación de prótesis de silicona en las mamas o pechos fundamentalmente por dos razones: con carácter estético, para aumentar los senos, y para reconstruir el pecho en aquellas mujeres a las que se les ha extirpado algún seno."],
+          ["Mastopexia", "La cirugía de Mastopexia permite elevar el pecho caído por razones de peso o distensión de la piel (edad, embarazo, volumen)."],
+          ["Mastectomia (Ginecomastia)", "La Ginecomastia es una alteración de la glándula mamaria en el hombre que esta aumentada de grandaria. La cirugía para la corrección de la Ginecomastia consiste en eliminar el tejido glandular."],
+          ["Reducción mamaria", "También conocida como mamoplastia de reducción, es una cirugía que se utilitza para eliminar el exceso de grasa, tejido y piel de las mamas en mujeres que tienen mamas grandes y desean resolver problemas como dolor crónico de espalda, cuello y hombros, entre otros."],
+          ["Prótesis de glúteos", "La cirugia de gluteoplastia es un procedimiento quirúrgico que permite aumentar el volumen de los glúteos mediante la inserción de implantes. El objetivo es corregir y dar forma a los glúteos planos o vacíos y obtener, además de un volumen más alto, una forma aún más definida, redonda y tonificada."],
+          ["Prótesis de pectorales", "La cirugía de implante pectoral permite implantar unas prótesis para aumentar el volumen y mejorar la forma del músculo pectoral."],
+          ["Prótesis de gemelos", "La cirugía de aumento de gemelos es una solución quirúrgica dirigida a mejorar el tamaño y la forma de los gemelos con poco volumen. Permite mejorar la imagen en el caso que considera las piernas demasiado finas. La operación consiste en realizar una incisión en el pliegue de la rodilla e insertar un implante de silicona para dar más volumen a los gemelos."],
+          ["Prótesis malares", "La cirugía de prótesis malares consiste en colocar un implante en la región de la mejilla para aportar volumen y proyección en la zona."],
+          ["Dermolipectomia (abdominoplastia/miniabdomino)", "La cirugía de abdominoplastia es la cirugía destinada a eliminar el exceso de piel y grasa del abdomen, a causa de la edad, oscilaciones de peso, o pérdida de la elasticidad cutánea por embarazos."],
+          ["Liposucción o Vaserlipo", "La cirugía de vaserlipo es una técnica de cirugía que utiliza ultrasonidos, especialmente creada para definir y esculpir la silueta corporal. La energía ultrasónica se transmite a través de pequeñas sondas que difunden ondas de calor para disolver la grasa y facilitar su extracción."],
+          ["Lipofilling", "La cirugía de lipofilling consiste en la transferencia y remodelación con grasa. Se consigue reducir volumen en zonas molestas para incorporarlo en otras que precisan mayor volumen."],
+          ["Bolas de bichat", "Las bolas de bichat son unos cúmulos de grasa de las mejillas, que es posible su extirpación mediante una pequeña cirugía que consigue afinar y estilizar el rostro."],
+          ["Rinoplastia","La Rinoplastia es una cirugía en la que se modifica la forma de la nariz. El motivo puede ser cambiar la apariencia de la nariz, mejorar la respiración o ambos."],
+          ["Rinoseptoplastia o rinoplastia secundaria"],
+          ["Otoplastia", "La otoplastia es un procedimiento quirúrgico para cambiar la forma, posición o el tamaño de las orejas."],
+          ["Lifting crural", "El lifting crural de muslos es una cirugía que consiste en eliminar el exceso de piel y grasa que se acumula usualmente en la cara interna de los muslos, a veces en la ingle."],
+          ["Lifting brazos", "El lifting de brazos es una cirugía dirigida a mejorar el aspecto de las extremidades superiores mediante la resección del exceso dermograso de cara interna de ambos brazos."],
+          ["Lifting cuello"],
+          ["Lifting  cervicofacial", "La cirugía de lifting cervicofacial es un procedimiento quirúrgico destinado a elevar y tensar la piel de la cara (frente, mejilla y cuello) para reducir el descolgamiento por flacidez."],
+          ["Lifting de un punto o minilifting"],
+          ["Nuez", "La Nuez es una porción de cartílago ubicado frente a la laringe, llamado cartílago tiroides que caracteriza a los hombres adultos. La cirugía de reducción de Nuez de Adan consiste básicamente en reducir y contornear dicho cartílago para asemejarlo estéticamente al de las mujeres."],
+          ["Lifting temporal/ frontal/ Reducción frente"],
+          ["Labioplastia", "La labioplastia de reducción o reducción de los labios menores es un procedimiento quirúrgico genital que reduce o cambia la forma de los labios menores."],
+          ["Agujeros orejas rasgadas", "La cirugía de reconstrucción de lóbulos rasgados consiste en la retirada de un poco de piel para juntar ambas partes separadas y dejando una cicatriz poco visible."],
+          ["Extirpación silicona labios", "La extracción de biopolímeros consiste en extirpar los productos causantes de deformidades en los labios provocadas por tratamientos estéticos que al cabo del tiempo han sufrido un proceso de transmutación, desplazamiento o hinchazón." ]
+        ]
+      }
+    },
+    "Contacto": [
+      {
+        "title": "Dirección",
+        "text": ["Av. de la Riera de Cassoles 63-65 àtic 21. Barcelona 08012", "+34 934 152 448", "Fax: 932 183 051", "soniarovira@clinicasoniarovira.com"]
+      },
+      {
+        "title": "Transporte público",
+        "text": ["Metro: L3 (Lesseps)", "Bus: 22, 24, 28, 31, 74, 92, 116, 10, 87"]
+      }
+    ]
+  }
