@@ -188,6 +188,54 @@ select[multiple] {
   .home-page .on {
     top: 0; }
 
+.clinica-page .top-page {
+  background-image: url("../assets/clinicaH.jpg");
+  background-position: center;
+  min-height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 40px 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+  opacity: 0.9; }
+  .clinica-page .top-page p {
+    font-size: 18px;
+    text-shadow: 2px 2px 2px #000000;
+    color: #F7F7F7; }
+
+.clinica-page .content {
+  padding: 20px 40px; }
+  .clinica-page .content h3 {
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #223756;
+    color: #5779B2; }
+  .clinica-page .content p {
+    width: 100%; }
+  .clinica-page .content li {
+    width: 100%; }
+
+.clinica-page .exposition .one, .clinica-page .exposition .two, .clinica-page .exposition .three {
+  background-image: url("../assets/clinicaOne.jpg");
+  background-position: center;
+  min-height: 280px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 40px 0px 40px;
+  opacity: 0.8; }
+
+.clinica-page .exposition .two {
+  background-image: url("../assets/clinicaDos.jpg"); }
+
+.clinica-page .exposition .three {
+  background-image: url("../assets/clinicaTree.jpg"); }
+
+.clinica-page footer {
+  padding: 20px 40px;
+  font-size: 18px; }
+
 .navbar {
   width: 100vw;
   position: fixed;

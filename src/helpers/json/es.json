@@ -10,7 +10,7 @@
     },
     "Clinica": {
       "text": "Somos cirujanos plásticos, reparadores estéticos y anestesistas con un servicio de enfermeria especializado.",
-      "Cuadro médico": {
+      "CuadroM": {
         "title": "Cuadro médico",
         "list": [
           ["Dra. Sonia Rovira Vallvé", "Nº Col 19149"],
@@ -18,9 +18,13 @@
           ["Dr. J. Ramón Lázaron Hijazo", "Nº Col 25761"]
         ]
       },
-      "Unidad sanitaria": {
+      "UnidadSan": {
         "title": "Unidad sanitaria",
-        "list": ["Merche Miquel Bono", "Silvia Palacios Diaz-Carralero", "Mertxe Bello Villegas", "Miriam González Rodriguez"]
+        "list": ["Merche Miquel Bono", "Silvia Palacios Diaz-Carralero", "Mertxe Bello Villegas"]
+      },
+      "Secretaria": {
+        "title": "Secretaria",
+        "list": ["Miriam González Rodriguez"]
       },
       "footer": "Clínica con quirófano propio homologado por la Generalitat de Catalunya, departamento de Sanidad y Seguridad Social, código E08558109"
     },

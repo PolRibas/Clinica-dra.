@@ -1,0 +1,53 @@
+.clinica-page{
+    .top-page{
+        background-image: url('../assets/clinicaH.jpg');
+        background-position: center;
+        min-height: 280px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 40px 40px 0px 40px;
+        @include flexColumnEnd;
+        opacity: 0.9;
+        p{
+            font-size: 18px;
+            text-shadow: 2px 2px 2px #000000;
+            color: $backgroundPage;
+        }
+    }
+    .content{
+        padding: 20px 40px;
+        h3{
+            font-size: 18px;
+            text-shadow: 1px 1px 1px $bluegardien;
+            color: $corporativeBlue;
+        }
+        p{
+            width: 100%;
+        }
+        li{
+            width: 100%;
+        }
+    }
+    .exposition{
+        .one, .two, .three{
+            background-image: url('../assets/clinicaOne.jpg');
+            background-position: center;
+            min-height: 280px;
+            width: 100vw;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 40px 40px 0px 40px;
+            opacity: 0.8;
+        }
+        .two{
+            background-image: url('../assets/clinicaDos.jpg');
+        }
+        .three{
+            background-image: url('../assets/clinicaTree.jpg');
+        }
+    }
+    footer{
+        padding: 20px 40px;
+        font-size: 18px;
+    }
+}
