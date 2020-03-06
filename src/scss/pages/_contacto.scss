@@ -1,0 +1,53 @@
+.contacto-page{
+    .top-page{
+        background-image: url('../assets/contacto.jpg');
+        background-position: center;
+        min-height: 180px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 40px 40px 0px 40px;
+        @include flexColumnEnd;
+        opacity: 0.7;
+        p{
+            font-size: 18px;
+            text-shadow: 2px 2px 2px #000000;
+            color: $backgroundPage;
+        }
+    }
+    .content{
+        padding: 20px 40px;
+        h3{
+            font-size: 18px;
+            text-shadow: 1px 1px 1px $bluegardien;
+            color: $corporativeBlue;
+        }
+        p{
+            width: 100%;
+        }
+        li{
+            width: 100%;
+        }
+    }
+    .exposition{
+        .one, .two, .three{
+            background-image: url('../assets/contactoOne.jpg');
+            background-position: center;
+            min-height: 280px;
+            width: 100vw;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 40px 40px 0px 40px;
+            opacity: 0.7;
+        }
+        .two{
+            background-image: url('../assets/contactoTwo.jpg');
+        }
+        .three{
+            background-image: url('../assets/contactoTree.jpg');
+        }
+    }
+    form{
+        height: 530px;
+        margin-bottom: 20px;
+    }
+}
