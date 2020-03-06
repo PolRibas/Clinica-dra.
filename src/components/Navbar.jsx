@@ -3,31 +3,16 @@ import { Link } from 'react-router-dom';
 
 const pages = [{
     path: '/',
-    menu: 'Home'
+    menu: 'Inicio'
 },{
-    path: '/about',
-    menu: 'About',
+    path: '/clinica',
+    menu: 'Clínica',
 },{
-    path: '/markets',
-    menu: 'Markets',
+    path: '/tratamientos',
+    menu: 'Tratamientos',
 },{
-    path: '/approach',
-    menu: 'Approach',
-},{
-    path: '/technology',
-    menu: 'Technology',
-},{
-    path: '/culture',
-    menu: 'Culture',
-},{
-    path: '/team',
-    menu: 'Team',
-},{
-    path: '/careers',
-    menu: 'Careers',
-},{
-    path: '/contact',
-    menu: 'Contact',
+    path: '/contacto',
+    menu: 'Contacto',
 }]
 
 

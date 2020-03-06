@@ -9,20 +9,23 @@
     @include flexColumnCenter;
     .burger-menu{
         height: 60px;
-        width: 50px;
+        width: 40px;
         position: fixed;
         right: 10px;
+        top: 0;
         z-index: 9999;
         transition: 0.5s;
+        cursor: pointer;
+        background: none;
         .one, .two, .three{
             background: $corporativeBlue;
             width: 35px;
             height: 3px;
             top: 16px;
             z-index: 999;
-            position: fixed;
+            position: absolute;
             border-radius: 30%;
-            transition: 0.5s;
+            transition: 0.8s;
         }
         .two{
             top: 24px;
@@ -34,7 +37,7 @@
     .on{
         .one, .two, .three{
             transform: rotate(45deg);
-            top: 22px;
+            top: 24px;
         }
         .two{
             transform: rotate(-45deg);
@@ -53,14 +56,17 @@
             right: -100vw;
             background: $backgroundPage;
             @include flexColumnCenter;
-            padding: 10vh 0;
+            padding: 10vh 0 20vh 0;
             justify-content: space-between;
-            transition: 0.5s;
+            transition: 0.8s;
+            opacity: 0.82;
             li{
                 a{
                     text-decoration: none;
-                    color: $bluegardien;
+                    color: $corporativeBlue;
                     font-weight: 500;
+                    font-size: 28px;
+                    text-shadow: 1px 1px 1px #000000;
                 }
             }
         }

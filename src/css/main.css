@@ -202,27 +202,30 @@ select[multiple] {
   align-content: center; }
   .navbar .burger-menu {
     height: 60px;
-    width: 50px;
+    width: 40px;
     position: fixed;
     right: 10px;
+    top: 0;
     z-index: 9999;
-    transition: 0.5s; }
+    transition: 0.5s;
+    cursor: pointer;
+    background: none; }
     .navbar .burger-menu .one, .navbar .burger-menu .two, .navbar .burger-menu .three {
       background: #5779B2;
       width: 35px;
       height: 3px;
       top: 16px;
       z-index: 999;
-      position: fixed;
+      position: absolute;
       border-radius: 30%;
-      transition: 0.5s; }
+      transition: 0.8s; }
     .navbar .burger-menu .two {
       top: 24px; }
     .navbar .burger-menu .three {
       top: 32px; }
   .navbar .on .one, .navbar .on .two, .navbar .on .three {
     transform: rotate(45deg);
-    top: 22px; }
+    top: 24px; }
   .navbar .on .two {
     transform: rotate(-45deg); }
   .navbar .on .three {
@@ -241,13 +244,16 @@ select[multiple] {
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 10vh 0;
+  padding: 10vh 0 20vh 0;
   justify-content: space-between;
-  transition: 0.5s; }
+  transition: 0.8s;
+  opacity: 0.82; }
   .active li a, .inactive li a {
     text-decoration: none;
-    color: #223756;
-    font-weight: 500; }
+    color: #5779B2;
+    font-weight: 500;
+    font-size: 28px;
+    text-shadow: 1px 1px 1px #000000; }
 
 .active {
   right: 0vw; }

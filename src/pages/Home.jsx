@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Logo from '../components/Logo';
 import Navbar from '../components/Navbar';
+import Consulta from '../components/Consulta';
 
 export default class Home extends Component {
     state = {
@@ -25,7 +26,7 @@ export default class Home extends Component {
                     <button onClick={() => this.setState({clicket: true})}>Pide Consulta</button>
                 </div>
                 <div className={clicket ? 'on' : 'off'}>
-
+                    <Consulta />
                 </div>
             </div>
         )
