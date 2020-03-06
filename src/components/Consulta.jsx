@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import consultas from '../services/consulta-service.js'
 
 class Consulta extends Component {
     state = {
@@ -15,63 +16,39 @@ class Consulta extends Component {
         })
     };
 
-    validateForm = (event) => {
-        event.preventDefault()
-        const { name, phone, email, message } = this.state
-        if (name && phone && email && message) {
-        this.isValidEmail(email)
-        } else {
-            this.setState({
-                messageTitle: '',
-                message: 'All fields are required',
-            })
-        }
-    };
-
-    isValidEmail = (email) => {
-        if (/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(email)) {
-        this.checkAvailability()
-        } else {
-            this.setState({
-                messageTitle: '',
-                message: "Invalid email",
-            })
-        };
-    } ; 
-
-    submitForm = async () => {
+    submitForm = e => {
+        e.preventDefault()
         const { name, phone, email, message } = this.state;
         const consulta = { name, phone, email, message};
-        await consulta.newConsulta(consulta);
+        consultas.newConsulta(consulta)
+        .then(r => console.log(r))
         this.setState({
-        name: '',
-        phone: '',
-        email: '',
-        message: ''
+            name: '',
+            phone: '',
+            email: '',
+            message: ''
         });
     };
 
     render() {
-        const {name, phone, email, message} = this.state;
         return (
-
             <form onSubmit={this.submitForm} className='form'>
                 <h3>Pedir Consulta</h3>
                 <div className='form-field'>
                     <label htmlFor="name">Nombre</label>
-                    <input type="text" onChange={this.inputOnChange} required/>
+                    <input type="text" id="name" name="name" value={this.state.name} onChange={this.inputOnChange} required/>
                 </div>   
                 <div className='form-field'>
                     <label htmlFor="phone">Teléfono</label>
-                    <input type="text" onChange={this.inputOnChange} required/>
+                    <input type="text" id="phone" name="phone" value={this.state.phone} onChange={this.inputOnChange} required/>
                 </div>   
                 <div className='form-field'>
                     <label htmlFor="email">Correo electrónico</label>
-                    <input rtype="text" onChange={this.inputOnChange} required/>
+                    <input rtype="text" id="email" name="email" value={this.state.email} onChange={this.inputOnChange} required/>
                 </div>   
                 <div className='form-field'>
                     <label htmlFor="message">Mensaje</label>
-                    <textarea type="text" onChange={this.inputOnChange} required/>
+                    <textarea type="text" id="message" name="message" value={this.state.message} onChange={this.inputOnChange} required/>
                 </div>   
                 <div className='form-field'>
                     <input type='submit' value='Enviar' />
@@ -79,6 +56,6 @@ class Consulta extends Component {
             </form>
         )
     }
-}
+};
 
 export default Consulta
