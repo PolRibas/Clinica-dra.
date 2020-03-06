@@ -51,3 +51,73 @@
         font-size: 18px;
     }
 }
+
+@media (min-width: 700px){
+    .clinica-page{
+        margin-top: 90px;
+        .top-page{
+            background-image: url('../assets/clinicaH.jpg');
+            background-position: center;
+            min-height: 350px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 30px 40px 0px 40px;
+            @include flexColumnEnd;
+            opacity: 0.9;
+            p{
+                font-size: 18px;
+                text-shadow: 2px 2px 2px #000000;
+                color: $backgroundPage;
+            }
+        }
+        .content{
+            padding: 20px 40px;
+            @include flexRowCenter;
+            min-width: 700px;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            h3{
+                font-size: 18px;
+                text-shadow: 1px 1px 1px $bluegardien;
+                color: $corporativeBlue;
+            }
+            p{
+                width: auto;
+            }
+            div{
+                width: 40%;
+                max-width: 600px;
+            }
+            ul{
+                width: 70%;
+            }
+            li{
+                @include flexRowCenter;
+                justify-content: space-between;
+            }
+        }
+        .exposition{
+            @include flexRowCenter;
+            .one, .two, .three{
+                background-image: url('../assets/clinicaOne.jpg');
+                background-position: top;
+                min-height: 350px;
+                width: 33.3%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 40px 40px 0px 40px;
+                opacity: 0.7;
+            }
+            .two{
+                background-image: url('../assets/clinicaDos.jpg');
+            }
+            .three{
+                background-image: url('../assets/clinicaTree.jpg');
+            }
+        }
+        footer{
+            padding: 20px 40px;
+            font-size: 18px;
+        }
+    }
+}

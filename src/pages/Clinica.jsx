@@ -14,13 +14,15 @@ export default class Clinica extends Component {
                     <p>{Clinica.text}</p>
                 </div>
                 <div className='content'>
-                    <h3>{Clinica.CuadroM.title}</h3>
-                    <ul>
-                        {Clinica.CuadroM.list.map(persona => <li key={persona[0]}>
-                            <p>{persona[0]}</p>
-                            <p>{persona[1]}</p>
-                        </li>)}
-                    </ul>
+                    <div>
+                        <h3>{Clinica.CuadroM.title}</h3>
+                        <ul>
+                            {Clinica.CuadroM.list.map(persona => <li key={persona[0]}>
+                                <p>{persona[0]}</p>
+                                <p>{persona[1]}</p>
+                            </li>)}
+                        </ul>
+                    </div>
                     <div>
                         <h3>{Clinica.UnidadSan.title}</h3>
                         <ul>

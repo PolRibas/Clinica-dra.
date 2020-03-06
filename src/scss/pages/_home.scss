@@ -17,6 +17,9 @@
                 text-shadow: 2px 2px 2px #000000;
                 color: $backgroundPage;
             }
+            button{
+                display: none;
+            }
         }
     }
     .filtro{
@@ -57,5 +60,74 @@
     }
     .on{
         top: 0
+    }
+}
+
+@media (min-width: 700px){
+    .home-page{
+        @include flexColumnCenter;
+        margin-top: 90px;
+        .image-box{
+            width: 100vw;
+            height: 90vh;
+            max-width: 100vw;
+            background-image: url('../assets/lipo.jpg');
+            padding: 0 40px;
+            @include flexColumnEnd;
+            .text-box{
+                position: absolute;
+                right: 60px;
+                top: 140px;
+                width: 400px;
+                h3{
+                    font-size: 24px;
+                    text-shadow: 2px 2px 2px #000000;
+                    color: $backgroundPage;
+                    text-align: right;
+                }
+                button{
+                    display: block;
+                    color: $backgroundPage;
+                    font-size: 20px;
+                    width: 80%;
+                    float: right;
+                    background: $corporativeBlue;
+                    padding: 10px;
+                    border-radius: 25px;
+                }
+            }
+        }
+        .filtro{
+            display: none;
+        }
+        .button-box{
+            display: none;
+        }
+        .on, .off {
+            position: fixed;
+            top: 90px;
+            right: -500px;
+            height: 100vh;
+            width: 500px;
+            background: $corporativeGray;
+            transition: 0.5s;
+            padding: 0vh 40px 12vh 40px;
+            .form{
+                max-height: 650px;
+                .form-field{
+                    textarea{
+                        height: 180px;
+                        width: 100%;
+                        min-height: 180px;
+                        max-height: 180px;
+                        min-width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+        .on{
+            right: 0
+        }
     }
 }

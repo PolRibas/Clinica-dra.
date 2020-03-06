@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import Logo from './Logo'
 
 const pages = [{
     path: '/',
@@ -23,15 +24,18 @@ export default class Navbar extends Component {
     render() {
         const {active} = this.state
         return (
-            <div>
-                <div className='navbar'>
-            <div className={active ? 'burger-menu on' : 'burger-menu off'} 
-            onClick={() => this.setState({active: !active})}>
-                <div className='one'></div>
-                <div className='two'></div>
-                <div className='three'></div>
+        <div>
+            <div className='logo'>
+                <Logo />
             </div>
-        </div>
+            <div className='navbar'>
+                <div className={active ? 'burger-menu on' : 'burger-menu off'} 
+                onClick={() => this.setState({active: !active})}>
+                    <div className='one'></div>
+                    <div className='two'></div>
+                    <div className='three'></div>
+                </div>
+            </div>
             <ul className={active ? 'active' : 'inactive'}>
                 {pages.map(page => 
                     <li key={page.path}><Link to={page.path}>
@@ -39,7 +43,7 @@ export default class Navbar extends Component {
                     </Link></li>
                 )}
             </ul>
-
+            
             </div>
         )
     }

@@ -150,6 +150,8 @@ select[multiple] {
       font-size: 24px;
       text-shadow: 2px 2px 2px #000000;
       color: #F7F7F7; }
+    .home-page .image-box .text-box button {
+      display: none; }
   .home-page .filtro {
     position: absolute;
     top: 0;
@@ -187,6 +189,68 @@ select[multiple] {
     padding: 5vh 40px 12vh 40px; }
   .home-page .on {
     top: 0; }
+
+@media (min-width: 700px) {
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 90px; }
+    .home-page .image-box {
+      width: 100vw;
+      height: 90vh;
+      max-width: 100vw;
+      background-image: url("../assets/lipo.jpg");
+      padding: 0 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-content: center; }
+      .home-page .image-box .text-box {
+        position: absolute;
+        right: 60px;
+        top: 140px;
+        width: 400px; }
+        .home-page .image-box .text-box h3 {
+          font-size: 24px;
+          text-shadow: 2px 2px 2px #000000;
+          color: #F7F7F7;
+          text-align: right; }
+        .home-page .image-box .text-box button {
+          display: block;
+          color: #F7F7F7;
+          font-size: 20px;
+          width: 80%;
+          float: right;
+          background: #5779B2;
+          padding: 10px;
+          border-radius: 25px; }
+    .home-page .filtro {
+      display: none; }
+    .home-page .button-box {
+      display: none; }
+    .home-page .on, .home-page .off {
+      position: fixed;
+      top: 90px;
+      right: -500px;
+      height: 100vh;
+      width: 500px;
+      background: #f5f5f5;
+      transition: 0.5s;
+      padding: 0vh 40px 12vh 40px; }
+      .home-page .on .form, .home-page .off .form {
+        max-height: 650px; }
+        .home-page .on .form .form-field textarea, .home-page .off .form .form-field textarea {
+          height: 180px;
+          width: 100%;
+          min-height: 180px;
+          max-height: 180px;
+          min-width: 100%;
+          max-width: 100%; }
+    .home-page .on {
+      right: 0; } }
 
 .clinica-page .top-page {
   background-image: url("../assets/clinicaH.jpg");
@@ -235,6 +299,76 @@ select[multiple] {
 .clinica-page footer {
   padding: 20px 40px;
   font-size: 18px; }
+
+@media (min-width: 700px) {
+  .clinica-page {
+    margin-top: 90px; }
+    .clinica-page .top-page {
+      background-image: url("../assets/clinicaH.jpg");
+      background-position: center;
+      min-height: 350px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 30px 40px 0px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-content: center;
+      opacity: 0.9; }
+      .clinica-page .top-page p {
+        font-size: 18px;
+        text-shadow: 2px 2px 2px #000000;
+        color: #F7F7F7; }
+    .clinica-page .content {
+      padding: 20px 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      min-width: 700px;
+      justify-content: space-evenly;
+      align-items: flex-start; }
+      .clinica-page .content h3 {
+        font-size: 18px;
+        text-shadow: 1px 1px 1px #223756;
+        color: #5779B2; }
+      .clinica-page .content p {
+        width: auto; }
+      .clinica-page .content div {
+        width: 40%;
+        max-width: 600px; }
+      .clinica-page .content ul {
+        width: 70%; }
+      .clinica-page .content li {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between; }
+    .clinica-page .exposition {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-content: center; }
+      .clinica-page .exposition .one, .clinica-page .exposition .two, .clinica-page .exposition .three {
+        background-image: url("../assets/clinicaOne.jpg");
+        background-position: top;
+        min-height: 350px;
+        width: 33.3%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 40px 40px 0px 40px;
+        opacity: 0.7; }
+      .clinica-page .exposition .two {
+        background-image: url("../assets/clinicaDos.jpg"); }
+      .clinica-page .exposition .three {
+        background-image: url("../assets/clinicaTree.jpg"); }
+    .clinica-page footer {
+      padding: 20px 40px;
+      font-size: 18px; } }
 
 .contacto-page .top-page {
   background-image: url("../assets/contacto.jpg");
@@ -285,7 +419,7 @@ select[multiple] {
   margin-bottom: 20px; }
 
 .tratamientos-page .top-page {
-  background-image: url("../assets/clinicaH.jpg");
+  background-image: url("../assets/tratamientos.jpg");
   background-position: center;
   min-height: 280px;
   background-repeat: no-repeat;
@@ -389,6 +523,51 @@ select[multiple] {
 
 .active {
   right: 0vw; }
+
+.logo {
+  display: none; }
+
+@media (min-width: 700px) {
+  .logo {
+    display: block;
+    position: fixed;
+    left: 5%;
+    z-index: 999999;
+    top: 20px;
+    width: 20%; }
+    .logo svg {
+      height: 60px; }
+  .navbar {
+    background: #F7F7F7;
+    height: 90px; }
+    .navbar .burger-menu {
+      display: none; }
+    .navbar .on {
+      display: none; }
+  .active, .inactive {
+    position: fixed;
+    z-index: 99999;
+    width: 60%;
+    height: 90px;
+    top: 0;
+    right: 5%;
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    justify-content: space-between;
+    transition: 0.8s;
+    opacity: 1; }
+    .active li a, .inactive li a {
+      text-decoration: none;
+      color: #5779B2;
+      font-weight: 500;
+      opacity: 0.8;
+      font-size: 22px;
+      text-shadow: 0px 0px 0px #000000; } }
 
 .form {
   height: 100%;

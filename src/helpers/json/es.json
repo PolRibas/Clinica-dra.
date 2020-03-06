@@ -30,7 +30,7 @@
     },
     "Tratamientos": {
       "Sincirugía": {
-        "title": "Estetica",
+        "title": "Medicina Estética",
         "list": [
           ["Thermage", "Es un tratamiento de radiofrecuencia, sin incisiones, que permite tensar y rejuvenecer el contorno de la fiel de forma natural y así devolver una apariencia joven."],
           ["IPL", "La Luz intensa pulsada elimina las marcas del sol, el estrés, proporcionando un rejuvenecimiento global y uniforme del rostro, cuello, escote e incluso manos. Permite tratar manchas pigmentadas, venitas o textura cutánea rugosa y así mejorar globalmente la calidad de la piel al estimular la formación de colágeno." ],
@@ -46,7 +46,7 @@
         ]
       },
       "Concirugía": {
-        "title": "Plástica",
+        "title": "Cirugía Plástica y reparadora",
         "list": [
           ["Blefaroplastia", "Es un tipo de cirugía que se realiza para corregir las bolsas y el exceso de piel de los párpados, tanto inferiores como superiores."],
           ["Prótesis de mamas", "La cirugía de prótesis de mamas es un tipo de cirugía que consiste en la implantación de prótesis de silicona en las mamas o pechos fundamentalmente por dos razones: con carácter estético, para aumentar los senos, y para reconstruir el pecho en aquellas mujeres a las que se les ha extirpado algún seno."],

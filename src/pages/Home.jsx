@@ -16,6 +16,7 @@ export default class Home extends Component {
                 <div className='image-box'>
                     <div className='text-box'>
                         <h3>La mejora constante, garantía de un servicio excelente.</h3>
+                        <button onClick={() => this.setState({clicket: true})}>Pide Consulta</button>
                     </div>
                 </div>
                 <div className='filtro'>
