@@ -4,6 +4,7 @@ class Consulta extends Component {
     render() {
         return (
             <form className='form'>
+                <h3>Pedir Consulta</h3>
                 <div className='form-field'>
                     <label>Nombre</label>
                     <input />

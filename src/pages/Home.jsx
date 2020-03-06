@@ -15,7 +15,7 @@ export default class Home extends Component {
                 <Navbar />
                 <div className='image-box'>
                     <div className='text-box'>
-                        <h3>La mejora constante, garantía de un servicio excelente</h3>
+                        <h3>La mejora constante, garantía de un servicio excelente.</h3>
                     </div>
                 </div>
                 <div className='filtro'>

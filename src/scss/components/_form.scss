@@ -1,0 +1,52 @@
+.form{
+    height: 100%;
+    @include flexColumnCenter;
+    width: 100%;
+    justify-content: space-around;
+    h3{
+        width: 100%;
+        text-align: left;
+        margin-bottom: 0;
+        font-size: 24px;        
+        text-shadow: 2px 2px 2px $corporativeGray;
+        color: $corporativeBlue;
+    }
+    .form-field{
+        @include flexColumnCenter;
+        width: 100%;
+        label{
+            width: 100%;
+            text-align: left;
+            color: $bluegardien;
+            font-size: 16px;        
+        }
+        input, textarea{
+            font-size: 16px;        
+            background: #D8D8D8;
+            width: 100%;
+            margin-top: 10px;
+            padding: 5px 5px;
+            -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+            -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+            box-sizing: border-box;
+            padding-left: 5px;
+        }
+        textarea{
+            height: 80px;
+            width: 100%;
+            min-height: 80px;
+            max-height: 80px;
+            min-width: 100%;
+            max-width: 100%;
+        }
+        input[type=submit]{
+            color: $backgroundPage;
+            font-size: 20px;
+            width: 100%;
+            background: $corporativeBlue;
+            padding: 10px;
+            border-radius: 25px;
+            -webkit-appearance: none;
+        }
+    }
+}
