@@ -224,7 +224,7 @@ select[multiple] {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px 40px 0px 40px;
-  opacity: 0.8; }
+  opacity: 0.7; }
 
 .clinica-page .exposition .two {
   background-image: url("../assets/clinicaDos.jpg"); }
@@ -235,6 +235,54 @@ select[multiple] {
 .clinica-page footer {
   padding: 20px 40px;
   font-size: 18px; }
+
+.contacto-page .top-page {
+  background-image: url("../assets/contacto.jpg");
+  background-position: center;
+  min-height: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 40px 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+  opacity: 0.7; }
+  .contacto-page .top-page p {
+    font-size: 18px;
+    text-shadow: 2px 2px 2px #000000;
+    color: #F7F7F7; }
+
+.contacto-page .content {
+  padding: 20px 40px; }
+  .contacto-page .content h3 {
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #223756;
+    color: #5779B2; }
+  .contacto-page .content p {
+    width: 100%; }
+  .contacto-page .content li {
+    width: 100%; }
+
+.contacto-page .exposition .one, .contacto-page .exposition .two, .contacto-page .exposition .three {
+  background-image: url("../assets/contactoOne.jpg");
+  background-position: center;
+  min-height: 280px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 40px 0px 40px;
+  opacity: 0.7; }
+
+.contacto-page .exposition .two {
+  background-image: url("../assets/contactoTwo.jpg"); }
+
+.contacto-page .exposition .three {
+  background-image: url("../assets/contactoTree.jpg"); }
+
+.contacto-page form {
+  height: 530px;
+  margin-bottom: 20px; }
 
 .navbar {
   width: 100vw;
