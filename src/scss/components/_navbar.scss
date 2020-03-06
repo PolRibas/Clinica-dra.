@@ -1,0 +1,69 @@
+.navbar{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    padding: 5px;
+    height: 40px;
+    @include flexColumnCenter;
+    .burger-menu{
+        height: 60px;
+        width: 50px;
+        position: fixed;
+        right: 10px;
+        z-index: 9999;
+        transition: 0.5s;
+        .one, .two, .three{
+            background: $corporativeBlue;
+            width: 35px;
+            height: 3px;
+            top: 16px;
+            z-index: 999;
+            position: fixed;
+            border-radius: 30%;
+            transition: 0.5s;
+        }
+        .two{
+            top: 24px;
+        }
+        .three{
+            top: 32px;
+        }
+    }
+    .on{
+        .one, .two, .three{
+            transform: rotate(45deg);
+            top: 22px;
+        }
+        .two{
+            transform: rotate(-45deg);
+        }
+        .three{
+            transform: rotate(45deg);
+        }
+    }
+}
+.active, .inactive{
+            position: fixed;
+            z-index: 19;
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            right: -100vw;
+            background: $backgroundPage;
+            @include flexColumnCenter;
+            padding: 10vh 0;
+            justify-content: space-between;
+            transition: 0.5s;
+            li{
+                a{
+                    text-decoration: none;
+                    color: $bluegardien;
+                    font-weight: 500;
+                }
+            }
+        }
+        .active{
+            right: 0vw;
+        }

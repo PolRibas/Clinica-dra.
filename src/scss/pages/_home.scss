@@ -1,12 +1,59 @@
 .home-page{
+    @include flexColumnCenter;
     .image-box{
-        max-height: 90vh;
         width: 100vw;
-        height: 90vh;
+        height: 60vh;
         max-width: 100vw;
         background-image: url('../assets/lipo.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 0 40px;
+        @include flexColumnEnd;
+        .text-box{
+            h3{
+                font-size: 24px;
+                text-shadow: 2px 2px 2px #000000;
+                color: $backgroundPage;
+            }
+        }
+    }
+    .filtro{
+        position: absolute;
+        top: 0;
+        background: $backgroundPage;
+        width: 100vw;
+        height: 80vh;
+        opacity: 0.3;
+    }
+    .button-box{
+        padding: 10px 35px;
+        height: 30vh;
+        @include flexColumnCenter;
+        position: sticky;
+        bottom: 0;
+        button{
+            color: $backgroundPage;
+            font-size: 20px;
+            width: 100%;
+            background: $corporativeBlue;
+            padding: 10px;
+            border-radius: 25px;
+        }
+        svg{
+            height: 15vh;
+            margin-bottom: 10px;
+        }
+    }
+    .on, .off {
+        position: fixed;
+        top: 100vh;
+        height: 100vh;
+        width: 100vw;
+        background: $corporativeGray;
+        transition: 0.5s;
+    }
+    .on{
+        top: 0
     }
 }

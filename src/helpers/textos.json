@@ -1,0 +1,26 @@
+{
+    "Home": {
+        "text": "Desde hace quince años, trabajamos en la mejora constante de la cirugía plástica y medicina estética para ofrecer a nuestros clientes un servicio excelente.",
+        "title": "Clinica Dra. Sonia Rovira",
+        "subtite": "Cirugia plástica, reparadora y estética",
+        "button": "Book a consultation"
+    },
+    "Menú": {
+        "Item 1": "Home",
+        "Item 2": "Clinica",
+        "Item 3": "Tratamientos",
+        "Item 4": "Contacto"
+    },
+    "Clinica": {
+        "text": "Somos cirujanos plásticos, reparadores estéticos y anestesistas con un servicio de enfermeria especializado.",
+        "Cuadro médico": {
+            "title": "Cuadro Médico",
+            "list": [[["Dra. Sonia Rovira Vallvé"],["Nº Col 19149"]],[["Dr. Ricardo Coronel Gagliardi"],["Nº Col 37579"]],[["Dra. J. Ramón Lázaron Hijazo"],["Nº Col 25761"]]]
+        },
+        "Unidad sanitaria": {
+            "title": "Unidad sanitaria",
+            "list": ["Mercedes Miquel", "Mercedes Bello", "Miriam González" ]
+        },
+        "footer": "Clínica con quirófano propio homologado por la Generalitat de Catalunya, departamento de Sanidad y Seguridad Social, código E08558109"
+    }   
+}
