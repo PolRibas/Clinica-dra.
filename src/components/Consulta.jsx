@@ -3,24 +3,24 @@ import React, { Component } from 'react'
 class Consulta extends Component {
     render() {
         return (
-            <form>
-                <div>
+            <form className='form'>
+                <div className='form-field'>
                     <label>Nombre</label>
                     <input />
                 </div>   
-                <div>
+                <div className='form-field'>
                     <label>Teléfono</label>
                     <input />
                 </div>   
-                <div>
+                <div className='form-field'>
                     <label>Correo electrónico</label>
                     <input />
                 </div>   
-                <div>
+                <div className='form-field'>
                     <label>Mensaje</label>
                     <textarea />
                 </div>   
-                <div>
+                <div className='form-field'>
                     <input type='submit' value='Enviar' />
                 </div>
             </form>
